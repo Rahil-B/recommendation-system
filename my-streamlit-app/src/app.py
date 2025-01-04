@@ -7,7 +7,7 @@ from recommendation_methods.app_utilities import get_unique_customer_ids
 
 
 # Load configuration
-with open('src/config.yaml', 'r') as file:
+with open('my-streamlit-app/src/config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 
 def main():
