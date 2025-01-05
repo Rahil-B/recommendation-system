@@ -27,7 +27,7 @@ Online_Retail_Recommendation_Project/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Online_Retail_Recommendation_Project.git
+    git clone https://github.com/Rahil-B/recommendation-system.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -53,7 +53,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or inquiries, please contact [yourname@example.com](mailto:yourname@example.com).

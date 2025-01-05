@@ -16,10 +16,9 @@ def get_unique_customer_ids(user_input:str , config):
     data = pd.read_pickle(data_path+ 'prepared_data.pkl')
     
     # Load the data
-    data_subset = data.head(search_rows_limit)  # Adjust the number of rows as needed
+    data_subset = data.head(search_rows_limit)
     
     unique_cust = data_subset['cust_id'].unique()
-    # Simulate combining different algorithms
     if user_input and user_input.isdigit() :
         n_unique_cust = unique_cust[:int(user_input)]
     else:
